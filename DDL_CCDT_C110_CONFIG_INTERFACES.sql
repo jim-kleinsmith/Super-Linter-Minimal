@@ -1,4 +1,4 @@
-﻿/*==============================================================================
+﻿/*=============================================================================
     SCRIPT NAME   : DDL_CCDT_C110_CONFIG_INTERFACES.sql
     AUTHOR        : COTIVITI
     CREATED DATE  : 10/28/2025
@@ -296,6 +296,7 @@ WHEN NOT MATCHED THEN
     VALUES (S.INTF_ID, S.INTF_NAME, S.INTF_PRODUCT, S.INTF_TYPE, SYSUTCDATETIME(), SUSER_SNAME(), SYSUTCDATETIME(), SUSER_SNAME());
 
 ------------------------------------------------------------------------------*/
+
 
 
 
